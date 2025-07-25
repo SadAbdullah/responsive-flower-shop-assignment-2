@@ -1,0 +1,202 @@
+/* -- Universal style -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--global-background);
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #E95A08;
+    --secondary-color: #000;
+    --heading-color: #2d3e50;
+    --text-color: #8987A1;
+    --global-background: #F5F8FF;
+    --glocal-white: #fff;
+    --primary-font: "Noto Serif", serif;
+    --text-font: "Inter", sans-serif;
+
+    --base-font: 1rem;
+
+    --border-test: 1px solid red;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.primary-btn {
+    font-size: var(--base-font);
+    background-color: var(--primary-color);
+    color: var(--glocal-white);
+    padding: 14px 29px;
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 34px;
+    box-shadow: 10px 19px 49px #ddd;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.primary-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.section-txt {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 19px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+/* -- Universal style end -- */
+
+
+
+/* -- Navbar area style -- */
+#nav-wrapper {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 2px 4px 49px #ddd;
+    position: sticky;
+    padding: 10px 0;
+    top: 0;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-logo img {
+    width: 135px;
+    height: auto;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 22px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 49px;
+}
+
+.nav-menu ul li a {
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    font-size: var(--base-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+.nav-menu ul li a:hover {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.nav-menu .active {
+    color: #000; 
+    font-weight: 700;
+}
+
+.cart li {
+    font-size: var(--base-font);
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.cart li .fa-cart-arrow-down {
+    color: var(--secondary-color);
+}
+
+/* -- Navbar area style end -- */
+
+
+
+
+/* -- header are style -- */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 196px 0 0;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-family: "Noto Serif", serif;
+    color: var(--secondary-color);
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.header-txt .section-txt {
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-size: 19px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.header-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- header are style end -- */
+
+
+
+
+
+
+
+
+
+
+
+
