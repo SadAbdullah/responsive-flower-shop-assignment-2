@@ -193,12 +193,14 @@ body {
     padding: 96px 0;
 }
 
-.plants-txt {
+.plants-txt,
+.latest-deal-txt {
     width: 74%;
     margin: 0 auto 56px;
 }
 
-.plants-txt .section-txt {
+.plants-txt .section-txt,
+.latest-deal-txt .section-txt {
     text-align: center;
 }
 
@@ -259,37 +261,139 @@ body {
     background-color: var(--secondary-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -- plants area style end -- */
 
 
 
 
+/* -- latest deal area -- */
+
+#latest-deal {
+    padding-bottom: 96px;
+}
+
+.latest-deal-card-contianer {
+    display: flex;
+    gap: 1.64rem;
+}
+
+.two-col-card {
+    width: 30%;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.latest-deal-card {
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.latest-deal-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--secondary-color);
+    opacity: 0.5;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.latest-deal-card:last-child {
+    height: 230px;
+    border-radius: 10px;
+    position: relative;
+    background-image: url(../img/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.latest-deal-card h2 {
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+.latest-deal-card-contianer .shop-link {
+    color: var(--glocal-white);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: var(--base-font);
+}
+
+.one-col-card {
+    width: 70%;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../img/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.one-col-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  opacity: 0.5;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+
+.one-col-card h2 {
+    color: var(--glocal-white);
+    font-size: 34px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+
+.one-col-card .shop-link {
+    color: var(--glocal-white);
+    font-size: 1.49rem;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: var(--base-font);
+}
+
+/* -- latest deal area end -- */
 
 
 
 
 
 
-
-
-
-
-
-
-/* -- header are style end -- */
 
 
 

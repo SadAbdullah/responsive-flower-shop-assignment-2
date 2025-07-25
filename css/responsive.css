@@ -50,14 +50,14 @@
 
 
 
-
     /* -- plants area style -- */
 
     #plants {
         padding: 24px 0;
     }
 
-    .plants-txt {
+    .plants-txt,
+    .latest-deal-txt {
         width: 86%;
         margin: 0 auto 56px;
     }
@@ -73,6 +73,40 @@
     .product-info .cart-btn {
         font-size: 15px;
     }
+
+    /* -- plants area style end -- */
+
+
+
+
+    /* -- latest deal area -- */
+
+    #latest-deal {
+        padding: 29px 0;
+    }
+
+    .latest-deal-card-contianer {
+        flex-direction: column;
+    }
+
+    .two-col-card {
+        width: 100%;
+    }
+
+    .one-col-card {
+        width: 100%;
+        height: 230px;
+    }
+
+    .one-col-card h2 {
+        font-size: 20px;
+    }
+
+    .one-col-card .shop-link {
+        font-size: 1rem;
+    }
+
+    /* -- latest deal area end -- */
 
 
 
@@ -132,4 +166,32 @@
     .plants-card-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+
+
+    /* -- latest deal area -- */
+
+    .latest-deal-card-contianer {
+        flex-direction: column;
+    }
+
+    .two-col-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1.24rem;
+        height: 230px;
+    }
+
+    .latest-deal-card {
+        width: 50%;
+    }
+
+    .one-col-card {
+        width: 100%;
+        height: 230px;
+    }
+
+    /* -- latest deal area end -- */
+
 }
