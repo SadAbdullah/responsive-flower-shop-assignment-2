@@ -3,6 +3,10 @@
         width: 92%;
     }
 
+    .section-txt {
+        font-size: 17px;
+    }
+
     .nav-logo img {
         width: 86px;
         height: auto;
@@ -28,6 +32,10 @@
         width: 100%;
     }
 
+    .header-txt .section-txt {
+        font-size: 17px;
+    }
+
     .header-txt h1 {
         font-size: 2rem;
         line-height: 2.6rem;
@@ -40,11 +48,39 @@
 
     /* -- header area responsive end -- */
 
+
+
+
+    /* -- plants area style -- */
+
+    #plants {
+        padding: 24px 0;
+    }
+
+    .plants-txt {
+        width: 86%;
+        margin: 0 auto 56px;
+    }
+
+    .sec-heading {
+        font-size: 32px;
+    }
+
+    .plants-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-info .cart-btn {
+        font-size: 15px;
+    }
+
+
+
 }
 
 
 
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 992px){
     .container {
         width: 92%;
     }
@@ -84,4 +120,16 @@
     }
 
     /* -- header area responsive end -- */
+
+
+
+    /* -- plants area style -- */
+
+    .sec-heading {
+        font-size: 39px;
+    }
+
+    .plants-card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

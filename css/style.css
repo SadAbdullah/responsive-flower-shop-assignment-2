@@ -53,6 +53,14 @@ body {
     background-color: var(--secondary-color);
 }
 
+.sec-heading {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .section-txt {
     color: var(--text-color);
     font-family: var(--text-font);
@@ -69,9 +77,11 @@ body {
 #nav-wrapper {
     border-bottom: 1px solid #ddd;
     box-shadow: 2px 4px 49px #ddd;
+    background-color: var(--global-background);
     position: sticky;
     padding: 10px 0;
     top: 0;
+    z-index: 999;
 }
 
 
@@ -148,7 +158,7 @@ body {
 }
 
 .header-txt h1 {
-    font-family: "Noto Serif", serif;
+    font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: 49px;
     font-weight: 700;
@@ -171,6 +181,98 @@ body {
     width: 100%;
     height: auto;
 }
+
+/* -- header are style end -- */
+
+
+
+
+/* -- plants area style -- */
+
+#plants {
+    padding: 96px 0;
+}
+
+.plants-txt {
+    width: 74%;
+    margin: 0 auto 56px;
+}
+
+.plants-txt .section-txt {
+    text-align: center;
+}
+
+
+.plants-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+}
+
+.plants-card {
+    padding: 10px;
+    box-shadow: 2px 6px 49px #ddd;
+    border-radius: 6px;
+}
+
+.plants-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.product-info .product-name {
+    font-family: var(--base-font);
+    color: var(--secondary-color);
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info .price {
+    font-family: var(--base-font);
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.product-info .cart-btn {
+    font-size: var(--base-font);
+    background-color: var(--primary-color);
+    color: var(--glocal-white);
+    padding: 14px 29px;
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    display: block;
+    box-shadow: 10px 19px 49px #ddd;
+    border-radius: 2px;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.product-info .cart-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- plants area style end -- */
 
 
 
