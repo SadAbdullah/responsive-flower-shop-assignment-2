@@ -110,6 +110,49 @@
 
 
 
+    /* -- plants lover area -- */
+
+    #plants-lover {
+        padding: 74px 0;
+        flex-direction: column;
+    }
+
+    .plants-img-area {
+        width: 100%;
+        border: var(--border-test);
+    }
+
+    .plants-img-area img:first-child {
+        width: 100%;
+    }
+
+    .plants-img-area img:last-child {
+        display: none;
+    }
+
+    .plants-txt {
+        width: 100%;
+    }
+
+
+
+    /* -- newsletter area -- */
+
+    .newsletter-wrapper {
+        padding: 96px 0;
+    }
+
+    #newsletter-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .newsletter-txt h2 {
+        font-size: 1.25rem;
+    }
+    /* -- newsletter area end -- */
+
+
 }
 
 
@@ -193,5 +236,46 @@
     }
 
     /* -- latest deal area end -- */
+
+
+
+    /* -- plants lover area -- */
+
+    #plants-lover {
+        padding: 74px 0;
+        flex-direction: column;
+    }
+
+    .plants-img-area {
+        width: 100%;
+        border: var(--border-test);
+    }
+
+    .plants-img-area img:first-child {
+        width: 100%;
+    }
+
+    .plants-img-area img:last-child {
+        display: none;
+    }
+
+    .plants-txt {
+        width: 100%;
+    }
+    
+
+    .newsletter-wrapper {
+        padding: 96px 0;
+    }
+
+    #newsletter-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .newsletter-txt h2 {
+        font-size: 1.25rem;
+    }
+    /* -- newsletter area end -- */
 
 }

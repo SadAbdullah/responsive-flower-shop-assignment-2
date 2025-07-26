@@ -76,7 +76,7 @@ body {
 /* -- Navbar area style -- */
 #nav-wrapper {
     border-bottom: 1px solid #ddd;
-    box-shadow: 2px 4px 49px #ddd;
+    box-shadow: 2px 4px 49px -10px #ddd;
     background-color: var(--global-background);
     position: sticky;
     padding: 10px 0;
@@ -388,6 +388,134 @@ body {
 }
 
 /* -- latest deal area end -- */
+
+
+
+
+/* -- plants lover area -- */
+
+#plants-lover {
+    padding: 74px 0;
+    display: flex;
+    align-items: center;
+}
+
+.plants-img-area {
+    width: 50%;
+    position: relative;
+}
+
+.plants-img-area img:first-child {
+    border-radius: 10px;
+    width: 76%;
+    height: auto;
+}
+
+.plants-img-area img:last-child {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -132px;
+    right: 2px;
+}
+
+.plants-txt {
+    width: 50%;
+}
+
+.plants-txt h2 {
+    color: var(--secondary-color);
+    font-size: 44px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.plants-items ul {
+    list-style-type: disc;
+}
+
+.plants-items ul li {
+    margin: 16px 0;
+    font-family: var(--base-font);
+    color: var(--text-color);
+    font-size: 21px;
+    margin-left: 29px;
+    margin-right: 39px;
+    margin-top: 39px;
+}
+
+/* -- plants lover area end -- */
+
+
+
+/* -- newsletter area -- */
+
+.newsletter-wrapper {
+    padding: 196px 0;
+    background-image: url(../img/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#newsletter-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter-txt h2 {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Noto Serif";
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 1.43rem;
+}
+
+
+input[type="email"]{
+    padding: 14px 16px;
+    background: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+input[type="submit"]{
+    font-size: var(--base-font);
+    background-color: var(--primary-color);
+    color: var(--glocal-white);
+    padding: 14px 1.76rem;
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    display: inline-block;
+    box-shadow: 10px 19px 49px #ddd;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--secondary-color);
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* -- newsletter area end -- */
 
 
 
