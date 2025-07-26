@@ -4,7 +4,7 @@
     }
 
     .section-txt {
-        font-size: 17px;
+        font-size: 1rem;
     }
 
     .nav-logo img {
@@ -25,7 +25,7 @@
 
     #header {
         flex-direction: column-reverse;
-        padding: 49px 0;
+        padding: 49px 0 0;
     }
 
     .header-txt {
@@ -53,7 +53,7 @@
     /* -- plants area style -- */
 
     #plants {
-        padding: 24px 0;
+        padding: 2rem 0;
     }
 
     .plants-txt,
@@ -62,8 +62,8 @@
         margin: 0 auto 56px;
     }
 
-    .sec-heading {
-        font-size: 32px;
+    #plants .sec-heading {
+        font-size: 2rem;
     }
 
     .plants-card-container {
@@ -82,11 +82,15 @@
     /* -- latest deal area -- */
 
     #latest-deal {
-        padding: 29px 0;
+        padding: 0 0 49px;
     }
 
     .latest-deal-card-contianer {
         flex-direction: column;
+    }
+
+    .latest-deal-txt .sec-heading {
+        font-size: 2rem;
     }
 
     .two-col-card {
@@ -113,7 +117,7 @@
     /* -- plants lover area -- */
 
     #plants-lover {
-        padding: 74px 0;
+        padding: 16px 0 0;
         flex-direction: column;
     }
 
@@ -134,6 +138,14 @@
         width: 100%;
     }
 
+    .plants-txt h2 {
+        font-size: 2.2rem;
+        margin-top: 2rem;
+    }
+
+    .plants-items ul li {
+        font-size: 1.2rem;
+    }
 
 
     /* -- newsletter area -- */
