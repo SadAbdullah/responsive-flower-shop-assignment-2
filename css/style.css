@@ -23,10 +23,7 @@ body {
     --glocal-white: #fff;
     --primary-font: "Noto Serif", serif;
     --text-font: "Inter", sans-serif;
-
     --base-font: 1rem;
-
-    --border-test: 1px solid red;
 }
 
 .container {
@@ -514,12 +511,55 @@ input::placeholder {
     font-weight: 500;
 }
 
-
 /* -- newsletter area end -- */
 
 
 
+ /* -- footer area -- */
 
+    #footer {
+        padding: 76px 0;
+        display: grid;
+        grid-template-columns: 44% 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .footer-intro {
+        padding-right: 5rem;
+    }
+
+    .site-logo img {
+        width: 135px;
+        height: auto;
+        display: inline-block;
+        margin-bottom: 1.46rem;
+    }
+
+    .footer-nav ul li a {
+        color: var(--text-color);
+        text-align: center;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        display: inline-block;
+        margin-bottom: 2rem;
+    }
+
+    .footer-social h4 {
+        color: var(--secondary-color);
+        font-family: "Noto Serif";
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1.76rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* -- footer area end -- */
 
 
 

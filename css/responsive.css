@@ -153,6 +153,22 @@
     /* -- newsletter area end -- */
 
 
+
+   /* -- footer area -- */
+
+   #footer {
+        grid-template-columns: 1fr;
+   }
+
+   .social-icons {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1.49rem;
+    }
+
+    /* -- footer area end -- */
+
 }
 
 
@@ -276,6 +292,27 @@
     .newsletter-txt h2 {
         font-size: 1.25rem;
     }
+
     /* -- newsletter area end -- */
+
+
+
+
+     /* -- footer area -- */
+
+   #footer {
+        grid-template-columns: 1fr;
+   }
+
+   .social-icons {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1.49rem;
+    }
+
+    /* -- footer area end -- */
+
+    
 
 }
